@@ -12,14 +12,14 @@
 <script src="assets/js/jquery-3.6.0.min.js"></script>
 
 <script src="assets/js/players.js?version=<?=time()?>"></script>
-
+ 
     <title>Supper Ludo</title>
 </head>
 <body>
     <div class="gameover" style="display:none">
-        
+         
         <div class="scoreboard">
-        <h1>Game Over</h1>
+        <h1>Game Over</h1> 
             <div class="playerlist"><div class="player movered1"></div><div id="r1">Red Player</div><img src="assets/img/crown1.png" class="icon2"/></div>
             <div class="playerlist"><div class="player movegreen1"></div><div id="r2">Green Player</div><img src="assets/img/crown2.png" class="icon2"/></div>
             <div class="playerlist"><div class="player moveyellow1"></div><div id="r3">Yellow Player</div><img src="assets/img/crown3.png" class="icon2"/></div>
@@ -47,7 +47,7 @@
 <span class="visually-hidden">Loading...</span>
 </div></button></div>
        </div>
-       <div>
+       <div> 
        <span>KEYBOARD CONTROLS</span> <br>   
        <kbd>Space</kbd> for dice & <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> <kbd>4</kbd> for players</div>
        <hr>
@@ -61,7 +61,7 @@
  <main class="container">
 <div class="ludo-board">
 <div class="red-home red-home-bg bg-red super-center">
-    <div class="white-box super-center">
+    <div class="white-box super-center"> 
    <div class="player-room">
 
 </div>
@@ -222,8 +222,8 @@
 </div>
 
 </main>
-<script src="assets/js/timer.js?version=<?=time()?>"></script>
-
+<script src="assets/js/timer.js?version=<?=time()?>"></script> 
+ 
 <script src="assets/js/logic.js?version=<?=time()?>"></script>
 
 <script src="assets/js/autorun.js?version=<?=time()?>"></script>

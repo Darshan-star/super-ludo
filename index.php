@@ -11,7 +11,7 @@
 <link rel="icon" href="assets/img/di.png">
 <script src="assets/js/jquery-3.6.0.min.js"></script>
 
-<script src="assets/js/players.js?version=<?=time()?>"></script>
+<script src="assets/js/players.js?version=<?=time()?>"></script> 
  
     <title>Supper Ludo</title>
 </head>
@@ -25,7 +25,7 @@
             <div class="playerlist"><div class="player moveyellow1"></div><div id="r3">Yellow Player</div><img src="assets/img/crown3.png" class="icon2"/></div>
             <div class="playerlist"><div class="player moveblue1"></div><div id="r4">Blue Player</div> Looser</div>
 
-</div>
+</div> 
     </div>
     <div class="welcome" style="display:">
         
@@ -45,7 +45,7 @@
 </div>
 <div class="super-center"><button id="start_btn">Start Game</button><button id="loading_btn" style="display:none" disabled><div class="spinner-border text-danger" role="status">
 <span class="visually-hidden">Loading...</span>
-</div></button></div>
+</div></button></div> 
        </div>
        <div> 
        <span>KEYBOARD CONTROLS</span> <br>   
@@ -74,7 +74,7 @@
 <div class="white-box super-center">
    <div class="player-room">
 
-</div>
+</div> 
     </div>
 </div>
 <div class="step"></div>
@@ -120,7 +120,7 @@
 <div class="step bg-red"></div>
 <div class="step bg-red"></div>
 <div class="step bg-yellow"></div>
-<div class="step bg-yellow"></div>
+<div class="step bg-yellow"></div> 
 <div class="step bg-yellow"></div>
 <div class="step bg-yellow"></div>
 <div class="step bg-yellow"></div>
@@ -222,8 +222,8 @@
 </div>
 
 </main>
-<script src="assets/js/timer.js?version=<?=time()?>"></script> 
- 
+<script src="assets/js/timer.js?version=<?=time()?>"></script>  
+  
 <script src="assets/js/logic.js?version=<?=time()?>"></script>
 
 <script src="assets/js/autorun.js?version=<?=time()?>"></script>
